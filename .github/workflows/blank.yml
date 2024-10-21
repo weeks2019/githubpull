@@ -34,5 +34,5 @@ jobs:
         run: |
          docker pull adoptopenjdk/openjdk8
          docker login --username=389816017@qq.com --password="WeikeS1105" registry.cn-hangzhou.aliyuncs.com
-         docker tag docker pull adoptopenjdk/openjdk8 registry.cn-hangzhou.aliyuncs.com/githubpull/adoptopenjdk:8
+         docker tag adoptopenjdk/openjdk8 registry.cn-hangzhou.aliyuncs.com/githubpull/adoptopenjdk:8
          docker push registry.cn-hangzhou.aliyuncs.com/githubpull/adoptopenjdk:8
