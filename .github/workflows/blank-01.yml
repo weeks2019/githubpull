@@ -37,7 +37,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-         docker pull langgenius/dify-sandbox:0.2.10
+         docker pull jenkins/jenkins:lts
          docker login --username=389816017@qq.com --password="WeikeS1105" registry.cn-hangzhou.aliyuncs.com
-         docker tag langgenius/dify-sandbox:0.2.10 registry.cn-hangzhou.aliyuncs.com/githubpull/dify-sandbox:0.2.10
-         docker push registry.cn-hangzhou.aliyuncs.com/githubpull/dify-sandbox:0.2.10
+         docker tag jenkins/jenkins:lts registry.cn-hangzhou.aliyuncs.com/githubpull/jenkins/jenkins:lts
+         docker push registry.cn-hangzhou.aliyuncs.com/githubpull/jenkins/jenkins:lts
