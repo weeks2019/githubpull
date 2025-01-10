@@ -39,5 +39,5 @@ jobs:
         run: |
          docker pull jenkins/jenkins:lts
          docker login --username=389816017@qq.com --password="WeikeS1105" registry.cn-hangzhou.aliyuncs.com
-         docker tag jenkins/jenkins:lts registry.cn-hangzhou.aliyuncs.com/githubpull/jenkins/jenkins:lts
-         docker push registry.cn-hangzhou.aliyuncs.com/githubpull/jenkins/jenkins:lts
+         docker tag jenkins/jenkins:lts registry.cn-hangzhou.aliyuncs.com/githubpull/jenkins:lts
+         docker push registry.cn-hangzhou.aliyuncs.com/githubpull/jenkins:lts
